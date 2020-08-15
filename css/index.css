@@ -54,16 +54,85 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 2rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+}
+
+/* Header styling*/
+
+.containerHead {
+    display: flex;
+    width: 43%;
+    margin-left: 28%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 54%;
+    margin: 0 auto;
+}
+
+.container .topImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top image*/
+.topImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: 0%;
+    width: 100%;
+
+}
+
+/*lambda logo*/
+.lambda {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1% 1% 0% 0%;
+    margin: 1% 1% 0% 0%;
+}
+
+/* Top nav controls*/
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-grow: 2;
+    font-size: 1.7rem;
+    color: black;
+    margin-left: 2%;
+}
+
+#home,
+#about,
+#products,
+#blog,
+#contact {
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+}
+
+nav {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
 }
 
 .container {
@@ -82,7 +151,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    font-size: 1.4rem; 
 }
 
 .middle-content {
@@ -101,21 +171,67 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .middle-content .boxes, #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10
+ {
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
+    font-size: 1.3rem;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#box1  {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+
+}
+
+.bottom-content p {
+    font-size: 1.4rem;
 }
 
 .bottom-content .text-container {
