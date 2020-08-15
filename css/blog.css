@@ -83,24 +83,17 @@ h5 {
 /* Top image*/
 .imageContainer {
     display: flex;
-    margin-top: 5%;
+    margin-top: 1%;
     height: 20%;
     width: 43%;
     margin-left: 28%;
 
 
 }
-
-.topImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    margin: 2%;
+.imageContainer img {
     width: 100%;
-    
-
 }
+
 
 /*lambda logo*/
 .lambda {
@@ -146,5 +139,113 @@ nav {
 
 .mainBody {
     display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 29%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  
 
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.blogText {
+    font-size: 1.5rem;
+    padding: 2%;
+    border: black dotted 2px;
+}
+
+/* Next/Last Buttons */
+
+.articleButtons {
+    display: flex;
+    margin-bottom: 2%;
+
+}
+
+.next {
+     border: 2px solid black;
+     border-radius: 10px;
+     background-color: white;
+     padding: 4%;
+     text-align: center;
+     font-size: 1.5rem;
+     width: 35%;
+     text-decoration: none;
+     color: black;
+     margin-top: 7%;
+     
+}
+.next:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 35%;
+    text-decoration: none;
+    color: white;
+    margin-top: 7%;
+    
+}
+
+.last {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 35%;
+    text-decoration: none;
+    color: black;
+    margin-top: 7%;
+    margin-left: 31%;
+}
+.last:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 35%;
+    text-decoration: none;
+    color: white;
+    margin-top: 7%;
+}
+
+
+
+/* Footer */
+#foot-text {
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+footer {
+    width: 43%;
+    margin-left: 28%;
+    background: black;
+
+
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
